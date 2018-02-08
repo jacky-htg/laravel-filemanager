@@ -1,0 +1,35 @@
+{
+    "name": "rebelworks/filemanager",
+    "description": "filemanager for laravel 5 using filesystem storage. support auto image optimization and aws s3.",
+    "license": "MIT",
+    "keywords": [
+        "filemanager",
+        "laravel",
+        "ckeditor",
+        "tinymce",
+        "upload",
+        "file",
+        "manager",
+        "image"
+    ],
+    "authors": [
+        {
+            "name": "Rijal Asep Nugroho",
+            "email": "rijal.asep.nugroho@gmail.com"
+        },
+        {
+            "name": "Rebelworks",
+            "email": "rijal.asep@rebelworks.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-exif": "*",
+        "ext-imagick": "*",
+        "illuminate/support": ">=4.2.0",
+        "illuminate/contracts": ">=5.5.0",
+        "illuminate/http": ">=5.5.0",
+        "intervention/image": "2.*"
+    }
+}
